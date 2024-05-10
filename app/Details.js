@@ -7,7 +7,7 @@ import { onSnapshot } from 'firebase/firestore';
 import { ALERT_TYPE, Dialog, AlertNotificationRoot, Toast } from 'react-native-alert-notification';
 import { Feather } from '@expo/vector-icons';
 import { collection, addDoc, serverTimestamp, where, query, getDocs, deleteDoc, doc, updateDoc, setDoc, getDoc } from "firebase/firestore";
-import { db,FIREBASE_AUTH } from '../../../../../cs303/final/mine/FirebaseConfig';
+import { db,FIREBASE_AUTH } from './FirebaseConfig';
 import { useNavigation } from '@react-navigation/native';
 import { router, useLocalSearchParams } from 'expo-router';
 const ProductPage = () => {

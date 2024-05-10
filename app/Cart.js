@@ -3,7 +3,7 @@ import { View, Text, ScrollView, Image, TouchableOpacity, Alert, StyleSheet, } f
 import { ALERT_TYPE, Dialog, AlertNotificationRoot, Toast } from 'react-native-alert-notification';
 import { Feather } from '@expo/vector-icons';
 import { collection, getDoc, doc, updateDoc, onSnapshot } from 'firebase/firestore';
-import { db,FIREBASE_AUTH } from '../../../../../cs303/final/mine/FirebaseConfig';
+import { db ,FIREBASE_AUTH } from './FirebaseConfig';
 import { router } from 'expo-router';
 
 
